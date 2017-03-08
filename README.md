@@ -2,7 +2,7 @@
 ----------------------------------------------
 ##        Front end
 ## 1. click <code>"CS1951a"</code>
-## 2. switch <code>"master"</code> to <code>"hg-pages"</code> Branch 
+## 2. switch <code>"master"</code> to <code>"gh-pages"</code> Branch 
 ##    for front-end (website/blog) source code
 ----------------------------------------------
 
