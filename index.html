@@ -32,36 +32,33 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h2>
-<a id="command-line-youtube-data" class="anchor" href="#command-line-gobang-game" aria-hidden="true"><span class="octicon octicon-link"></span></a>Youtube API Data Trend</h2>
+<a id="command-line-youtube-data" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Youtube API Data Trend</h2>
 
 <h4>
-<a id="author-Aaron-Natalie-Preston" class="anchor" href="#author-shan-lubaizhima" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author: Aaron Wu (pwu8), Natalie Roe (nroe), Preston Law (plaw)</h4>
+<a id="author-Aaron-Natalie-Preston" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author: Aaron Wu (pwu8), Natalie Roe (nroe), Preston Law (plaw)</h4>
 
 <h4>
-<a id="brown-university" class="anchor" href="#affiliation-brown-university" aria-hidden="true"><span class="octicon octicon-link"></span></a>Brown University</h4>
+<a id="brown-university" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Brown University</h4>
 
 <h3>
-<a id="how-to-run-this-game" class="anchor" href="#how-to-run-this-game" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to run this game</h3>
+<a id="how-to-run-this" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to run this:</h3>
 
 <ol>
-<li>Download the zip file or clone this repository to your current directory</li>
-<li>Issue the command <code>make</code>
-</li>
-<li>Issue the command <code>./gobang</code> to start your game against AI!</li>
+<li>1. Download the zip file by click button above</li>
+<li>2. Issue the command <code>cd</code> to your code path</li>
+<li>3. Issue the command <code>python -m SimpleHTTPServer</code> to start the server</li>
+<li>4. Open your browser <code>http://localhost:8000/index.html</code> to display the data visulization</li>
+
 </ol>
 
-<h3>
-<a id="functionality" class="anchor" href="#functionality" aria-hidden="true"><span class="octicon octicon-link"></span></a>Functionality</h3>
 
-<ol>
-<li>Regret your last step: you can type <code>A0</code> to regret your last step. Obviously, the move that played by AI will also be deleted.</li>
-</ol>
+
 
 <h3>
 <a id="known-issues" class="anchor" href="#known-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Known issues</h3>
 
 <ol>
-<li>Though input check is implemented, please do not type any backspace when choosing a coordinate. Otherwise it will <em>CRASH</em>!</li>
+<li>since d3.js uses ajax to load tsv files, the files contained in the src folder cannot be run in a browser using file:///. Execute the following command under the src directory to create a HTTP server. Otherwise it will display<em>NOTHING</em>!</li>
 </ol>
 
 <h3>
