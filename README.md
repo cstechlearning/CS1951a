@@ -1,5 +1,14 @@
-## Welcome to back-end source page 
-## Switch "master" to "hg-pages" brunch above for front-end (website/blog)
+## Welcome to back-end source page!
+----------------------------------------------
+##        Front end
+## 1. click "CS1951a"
+## 2. switch "master" to "hg-pages" Branch 
+##    for front-end (website/blog) source code
+----------------------------------------------
+
+----------------------------------------------
+##        Back end
+## This is back-end source code page.
 
 You can use the [editor on GitHub](https://github.com/pengyangwu/CS1951a/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
