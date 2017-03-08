@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages XXX
+## Welcome to back-end source page ## switch to "hg-pages" brunch for website front-end
 
 You can use the [editor on GitHub](https://github.com/pengyangwu/CS1951a/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
