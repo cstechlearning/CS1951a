@@ -1,8 +1,8 @@
 ## Welcome to Data Science Project source page
 ----------------------------------------------
 ##        Front end
-## 1. click "CS1951a"
-## 2. switch "master" to "hg-pages" Branch 
+## 1. click <code>"CS1951a"</code>
+## 2. switch <code>"master"</code> to <code>"hg-pages"</code> Branch 
 ##    for front-end (website/blog) source code
 ----------------------------------------------
 
