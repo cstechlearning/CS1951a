@@ -1,4 +1,4 @@
-## Welcome to Data Science Project source page
+## Welcome to CS1951a Final Project source page
 ----------------------------------------------
 ##        Front end
 ## 1. click <code>"CS1951a"</code>
