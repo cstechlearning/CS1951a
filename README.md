@@ -1,4 +1,4 @@
-# CS1951a
-Youtube Data Trend Project: (website) 
+# This is Front-end source code for
+Youtube Data Trend Project
 
-Front-end:  <code>html/css/js </code>
+Files:  <code>html/css/js </code>
