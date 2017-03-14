@@ -1,4 +1,4 @@
-## Welcome to CS1951a Final Project source page
+## [Welcome to CS1951a Final Project source page](https://pengyangwu.github.io/CS1951a/)
 ----------------------------------------------
 ##        Front end
 ## 1. click <code>"CS1951a"</code>
