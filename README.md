@@ -27,7 +27,7 @@
 
 
 ---------------------------------------------------------
-##        Ignore below, just temple
+##        Ignore below, just some syntax
 
 
 You can use the [editor on GitHub](https://github.com/pengyangwu/CS1951a/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
