@@ -9,7 +9,9 @@
 ---------------------------------------------------------
 ##        Back end
 
-## Back-end source code page is here: https://github.com/PrestonLaw/CSCI1951AProject/tree/master
+## Back-end source code is here:
+
+https://github.com/PrestonLaw/CSCI1951AProject/tree/master
 
 <br>
 <br>
