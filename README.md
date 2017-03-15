@@ -1,9 +1,9 @@
 ## This is CS1951a Final Project Source Page [[Link]](https://pengyangwu.github.io/CS1951a/)
 ---------------------------------------------------------
 ##        Front end
-## 1. click <code>"CS1951a"</code>
-## 2. switch <code>"master"</code> to <code>"gh-pages"</code> Branch 
-##    for front-end (website/blog) source code
+1. click <code>"CS1951a"</code>
+2. switch <code>"master"</code> to <code>"gh-pages"</code> Branch 
+    for front-end (website/blog) source code
 ---------------------------------------------------------
 
 ---------------------------------------------------------
@@ -11,7 +11,7 @@
 
 ## Back-end source code is here:
 
-https://github.com/PrestonLaw/CSCI1951AProject/tree/master
+## https://github.com/PrestonLaw/CSCI1951AProject/tree/master
 
 <br>
 <br>
