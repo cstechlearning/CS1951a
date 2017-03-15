@@ -1,4 +1,4 @@
-## Welcome to CS1951a Final Project Source Page [[Link]](https://pengyangwu.github.io/CS1951a/)
+## This is CS1951a Final Project Source Page [[Link]](https://pengyangwu.github.io/CS1951a/)
 ---------------------------------------------------------
 ##        Front end
 ## 1. click <code>"CS1951a"</code>
@@ -8,8 +8,16 @@
 
 ---------------------------------------------------------
 ##        Back end
+
 ## Back-end source code page is here: https://github.com/PrestonLaw/CSCI1951AProject/tree/master
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
