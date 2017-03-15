@@ -1,12 +1,12 @@
-## Welcome to CS1951a Final Project Source Page
-----------------------------------------------
+## Welcome to CS1951a Final Project Source Page [[website]](https://pengyangwu.github.io/CS1951a/)
+---------------------------------------------------------
 ##        Front end
 ## 1. click <code>"CS1951a"</code>
 ## 2. switch <code>"master"</code> to <code>"gh-pages"</code> Branch 
 ##    for front-end (website/blog) source code
-----------------------------------------------
+---------------------------------------------------------
 
-----------------------------------------------
+---------------------------------------------------------
 ##        Back end
 ## This is back-end source code page.
 
