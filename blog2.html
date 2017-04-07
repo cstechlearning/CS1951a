@@ -55,14 +55,26 @@
 <img src="images/khan_data_csv.png">
         
         
-<p>We then transformed the data to represent the properties for every single video with the following features [x is R^8 dimension], 
-  (['Id', 'Title', 'Description', 'LikeCount', 'DislikeCount', 'ViewCount', 'FavoriteCount', 'CommentCount']). 
-  On our feature set, we performed sentimental analysis (positive + / negative -) based on 
-  Machine Learning classification models. 
-  The classification models we used were Bernoulli Naive Bayes, Linear Regression, Logistic Regression, Support Vector Machine.
-  In the shot result of the terminal, 
-  [0] -> stands for postive+;
-  [1] -> stands for negative- </p>
+<p>We then transformed the data to represent the properties for every single video with the following features [x is R^8 dimension],  <br>
+  (['Id', 'Title', 'Description', 'LikeCount', 'DislikeCount', 'ViewCount', 'FavoriteCount', 'CommentCount']).  <br>
+  On our feature set, we performed sentimental analysis (positive + / negative -) based on  <br>
+  Machine Learning classification models.  <br>
+  The classification models we used were Bernoulli Naive Bayes, Linear Regression, Logistic Regression, Support Vector Machine. <br>
+  In the shot result of the terminal,  <br>
+  [0] -> stands for postive+; <br>
+  [1] -> stands for negative-  <br></p>
+        
+   <p> Based on machine learning model analysis on these data, we could generated vast majority info, and we could ultilize them in some creative way, <br>
+   For instance, predicting a likely label before a user clicks it. If the predicted label is (-1) negative based on Liked, Disliked, Comments, <br>
+   and our model says we got >85% probability it's negative(-1), then we would pop up an notice it channel may contain harmful info and make you feel uncomfable.<br>
+   Simiarily, if our model says we got >99.5% probability it's negative(-1), then we would block this video in this channel, for the users below 18 year-old (children), etc.  
+   <br>
+   In addition, We will be continuing to process, analyze, and create visualizations with more data. And We will also be working on developing the web application <br>
+   portion of the project so that users will be able to use our findings to identify trends on YouTube.
+   <br>
+   <br>
+   April 6, 2017
+ </p>
  
 <h4 align="center">Classifier 1</h4>        
 <p style="color:red" align="center">Bernoulli Naive Bayes</p>
@@ -79,7 +91,11 @@
 <img src="images/SVM_1.png">
 <br>
         
-<h3> Conclusion and analysis based on ML </h3>
+        
+<h3>
+<a id="content"><span class="octicon octicon-link"></span></a>Conclusion and analysis based on ML</h3>
+        
+
  <p> Based on machine learning model analysis on these data, we could generated vast majority info, and we could ultilize them in some creative way, <br>
    For instance, predicting a likely label before a user clicks it. If the predicted label is (-1) negative based on Liked, Disliked, Comments, <br>
    and our model says we got >85% probability it's negative(-1), then we would pop up an notice it channel may contain harmful info and make you feel uncomfable.<br>
@@ -412,6 +428,7 @@ Video 50:
 --------------------------------------------------------------
 </span>
  
+<<<<<<< HEAD
 <span id="g">  
 <h4 align="center">Classifier 2</h4>  
   ----------- LogisticRegression -------------
@@ -424,6 +441,20 @@ std dev:
 0.0055883388632
 ==============================================================
 --------------------------------------------------------------
+=======
+  
+  
+<br>  ----------- LogisticRegression -------------
+<br>training mean accuracy:
+<br>0.8498
+<br>mean0 and std dev for cross validation scores:
+<br>mean:
+<br>0.7648625
+<br>std dev:
+<br>0.0055883388632
+<br>==============================================================
+<br>--------------------------------------------------------------
+>>>>>>> origin/gh-pages
 Video 1:
 >> predicted label for this video:
 [1]
@@ -728,6 +759,7 @@ Video 50:
   
   
   
+<<<<<<< HEAD
 <span id="b">  
 <h4 align="center">Classifier 3</h4>
   ------------------ SVM ----------------------
@@ -740,6 +772,18 @@ std dev:
 0.00491737989177
 ==============================================================
 --------------------------------------------------------------
+=======
+<br>  ------------------ SVM ----------------------
+<br>training mean accuracy:
+<br>0.8947125
+<br>mean and std dev for cross validation scores:
+<br>mean:
+<br>0.74685
+<br>std dev:
+<br>0.00491737989177
+<br>==============================================================
+<br>--------------------------------------------------------------
+>>>>>>> origin/gh-pages
 Video 1:
 >> predicted label for this video:
 [1]
