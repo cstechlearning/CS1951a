@@ -30,21 +30,31 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h2>
-<a id="command-line-youtube-data" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Youtube API Data Trend</h2>
+<a id="command-line-youtube-data" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Progress Thus Far</h2>
 
 <h4>
 <a id="author-Aaron-Natalie-Preston-Wennie" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author: Aaron Wu (pwu8), Natalie Roe (nroe), Preston Law (plaw), Wennie Zhang (yzhang46)</h4>
 
 
 <h3>
-<a id="content"><span class="octicon octicon-link"></span></a>This Week's Work</h3>
-<p> Up until out first TA check-in, we've collected the data that we will be using from YouTube and have stored it in a database.
-  Below are a few images of the data that we've collected: </p>
-        <h4><a id="content"><span class="octicon octicon-link"></span></a>Comment Feed Data</h4>
-        <img src="images/youtube_video_data.png" align="middle">
-        <p> In terms of the video itself, we were able to obtain quite a lot of information about it including 
-          the channel it came from, the title, time it was published at and the thumbnail.</p>
-        
+<a id="content"><span class="octicon octicon-link"></span></a>What We've Accomplished</h3>
+
+<p> At this point, in our final project, we've created a python script to extract and clean our data from YouTube. Below is an image of part of our code that grabbed the data from the API. </p>
+
+<img src="images/grabber_code.png" align="middle">
+
+<p> The data that we grabbed pertained to the top videos on YouTube at the time we ran our data. "Top" was defined by the videos' likes to dislikes ratio. From our data, we created a visualization representing the most popular terms in the top videos on YouTube. The terms were sourced from each videos' title, tags, and description.</p>
+
+<img src="images/top_terms.png" align="middle">
+
+<p> Afterwards, we extracted data from 4 specific channels on YouTube: Khan Standard Playlists, Khan Medicine Playlists, Khan College Admissions Playlists, and Khan SAT Playlists. We wrote a specific script to extract and clean data from those playlists. Below is an image of our data from Khan Standard Playlists: </p>
+
+<img src="images/khan_data_json.png">
+
+<p>After cleaning the data, we created a file that lists each video id, title, like count, dislike count, views, favourite count, and number of comments. Below is a snapshot of the information for a subset of the data that we collected from the channel: </p>
+<img src="images/khan_data_csv.png">
+
+
 
 <p>Home Page # is: <a href="https://pengyangwu.github.io/CS1951a/"> here </a>.</p>
       </section>
