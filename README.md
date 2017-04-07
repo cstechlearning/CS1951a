@@ -1,10 +1,4 @@
-# This is Front-end source code
-for Youtube Data Trend Project
-
-
-
-
-## This is CS1951a Final Project Source Page [[Link]](https://pengyangwu.github.io/CS1951a/)
+## This is CS1951a Final Project Source Page [[Website]](https://pengyangwu.github.io/CS1951a/)
 ---------------------------------------------------------
 ##        Front end  <---
 ##    Files:  <code>html/css/js </code>
