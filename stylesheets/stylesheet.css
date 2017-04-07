@@ -177,6 +177,15 @@ pre {
   overflow: auto;
 }
 
+pre span#r{
+    color: red;        
+}
+pre span#g{
+    color: green;        
+}
+pre span#b{
+    color: blue;        
+}
 code {
   padding: 3px;
   margin: 0 3px;

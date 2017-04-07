@@ -16,7 +16,7 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/pengyangwu/CS1951a">View on GitHub</a>
-          <h1 id="project_title">Blog Post #1</h1>
+          <h1 id="project_title">Blog Post #2</h1>
           <h2 id="project_tagline">CS1951a : Data Science Project</h2>
 
             <section id="downloads">
@@ -33,7 +33,7 @@
 <a id="command-line-youtube-data" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Progress Thus Far</h2>
 
 <h4>
-<a id="author-Aaron-Natalie-Preston-Wennie" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author: Aaron Wu (pwu8), Natalie Roe (nroe), Preston Law (plaw), Wennie Zhang (yzhang46)</h4>
+<a id="author-Aaron-Natalie-Preston-Wennie" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author: Aaron Wu (pwu8), Abhishek Dutta (adutta2), Natalie Roe (nroe), Preston Law (plaw)</h4>
 
 
 <h3>
@@ -64,15 +64,20 @@
   [0] -> stands for postive+;
   [1] -> stands for negative- </p>
  
-        
-<p>Bernoulli Naive Bayes</p>
+<h4 align="center">Classifier 1</h4>        
+<p style="color:red" align="center">Bernoulli Naive Bayes</p>
 <img src="images/nb_1.png">
-        
-<p>Logistic Regression</p>
+<br>
+
+<h4 align="center">Classifier 2</h4>        
+<p style="color:green" align="center">Logistic Regression</p>
 <img src="images/log_1.png">
+<br>
         
-<p>Support Vector Machine</p>
+<h4 align="center">Classifier 3</h4>		
+<p style="color:blue" align="center">Support Vector Machine</p>
 <img src="images/SVM_1.png">
+<br>
         
 <h3> Conclusion and analysis based on ML </h3>
  <p> Based on machine learning model analysis on these data, we could generated vast majority info, and we could ultilize them in some creative way, <br>
@@ -90,20 +95,24 @@
 
         
 <p><b>For the limitation of screenshot's length on department machine, the full results are as follows: </b>
-  
- <br>----------- Naive Bayes, Bernoulli ---------
-<br>training mean accuracy:
-<br>0.8295125
-<br>mean and std dev for cross validation scores:
-<br>mean:
-<br>0.755
-<br>std dev:
-<br>0.00643015357515
-<br>==============================================================
-<br>--------------------------------------------------------------
-<br>Video 1:
-<br>>> predicted label for this video:
-<br>[1]
+
+<pre>  
+<h4 align="center">Classifier 1</h4>
+
+<span id="r">
+  ----------- Naive Bayes, Bernoulli ---------
+training mean accuracy:
+0.8295125
+mean and std dev for cross validation scores:
+mean:
+0.755
+std dev:
+0.00643015357515
+==============================================================
+--------------------------------------------------------------
+Video 1:
+>> predicted label for this video:
+[1]
 >> predicted probability for this label assign to this video:
 [[ 0.11260559  0.88739441]]
 --------------------------------------------------------------
@@ -401,10 +410,10 @@ Video 50:
 >> predicted probability for this label assign to this video:
 [[ 0.46897564  0.53102436]]
 --------------------------------------------------------------
-  
+</span>
  
-  
-  
+<span id="g">  
+<h4 align="center">Classifier 2</h4>  
   ----------- LogisticRegression -------------
 training mean accuracy:
 0.8498
@@ -715,11 +724,12 @@ Video 50:
 >> predicted probability for this label assign to this video:
 [[ 0.48724854  0.51275146]]
 --------------------------------------------------------------
-
+</span>
   
   
   
-  
+<span id="b">  
+<h4 align="center">Classifier 3</h4>
   ------------------ SVM ----------------------
 training mean accuracy:
 0.8947125
@@ -1030,10 +1040,10 @@ Video 50:
 >> predicted probability for this label assign to this video:
 [ 0.01812744]
 --------------------------------------------------------------
-
+</span>
   
 
-
+</pre>
   
  
 
@@ -1041,7 +1051,7 @@ Video 50:
         
 
         
- </p> 
+ 
         
         
 
