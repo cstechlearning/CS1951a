@@ -46,7 +46,7 @@
 <p>We extracted data from the most recently uploaded YouTube videos since March 1, 2017. However, due to limits in the YouTube API, we need more time to extract more data. Nevertheless, the data we extracted includes the Id, Title, Description, LikeCount, DislikeCount, Location, and Tags for each particular video. We will be using the Title, Description, and Tags for our tag prediction. In order to do our tag prediction, we needed to condense the set of tags that we obtained from the YouTube videos. We used the Synonym library from Python to find synonyms between video tags so that we could condense them. Here is a look of our set of tags after condensing synonyms:
 </p>
 
-<img src="images/condensed_synonyms.png" align="middle">
+<img src="images/condensed_tags.png" align="middle">
 
 <p>We will be training our classifier to identify which tags correspond to which videos. From our set of tags and the data we pulled from YouTube, we have our training and testing data. In the data for our training and testing, we condensed the Tags column from the data we obtained from YouTube to be condensed tags from our list. Below are some images of our final data set:</p>
   
