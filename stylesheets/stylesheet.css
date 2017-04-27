@@ -41,6 +41,17 @@ li:hover
     background-color: #ffffb3;
 }
 
+ol, ul:hover
+{
+    background-color: #ccebff;
+}
+
+
+h1, h2, h3, h4, h5, h6:hover
+{
+    background-color: #ffe6ff;
+}
+
 
 
 ol, ul {
