@@ -11,6 +11,13 @@
 
 ## https://github.com/PrestonLaw/CSCI1951AProject/tree/master
 
+---------------------------------------------------------
+##        Prepocessing (Extraction and Cleaning), Machine Learning and Sentiment Analysis Model
+
+## Back-end source code is here:
+
+## https://github.com/abhishekdutta/youtube-data-trends-predictor
+
 <br>
 <br>
 <br>
