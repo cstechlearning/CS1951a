@@ -87,7 +87,7 @@ function init(){
     aspectRatio,
     nearPlane,
     farPlane);
-  camera.position.z = 1000;  
+  camera.position.z = 2000;  //change the size of effect
   
   
   //create the renderer 
