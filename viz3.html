@@ -1,0 +1,221 @@
+<html>
+<head>
+<title>Viz 3</title>
+<script type="text/javascript" src="http://static.fusioncharts.com/code/latest/fusioncharts.js"></script>
+<script type="text/javascript" src="http://static.fusioncharts.com/code/latest/themes/fusioncharts.theme.fint.js?cacheBust=56"></script>
+<script type="text/javascript">
+
+
+// Sentiment analysis visualization
+// Showing sentiment score for each video (Positive, Neutral, Negative) - with different colors
+// Sliding bar chart functionality
+
+FusionCharts.ready(function(){
+    var salesChart = new FusionCharts({
+        type: 'scrollstackedcolumn2d',
+        dataFormat: 'json',
+        renderAt: 'chart-container',
+        width: '1100',
+        height: '700',
+        dataSource: {
+            "chart": {
+                "caption": "Sentiment Analysis Visualization based on Different Labels - Bar Chart",
+                "subCaption": "(1-10 scale:  1-5: Negative,   6-10: Positive)",
+                "captionFontSize": "18",
+                "subcaptionFontSize": "18",
+                "subcaptionFontBold": "0",
+                "xaxisname": "Video Labels",
+                "yaxisname": "Sentiment Value",
+                "showvalues": "0",
+                "numberprefix": "",
+                "legendBgAlpha": "0",
+                "legendBorderAlpha": "0",
+                "legendShadow": "0",
+                "showborder": "0",
+                "bgcolor": "#ffffff",
+                "showalternatehgridcolor": "0",
+                "showplotborder": "0",
+                "showcanvasborder": "",
+                "legendshadow": "0",
+                "plotgradientcolor": "",
+                "showCanvasBorder": "0",
+                "showAxisLines": "1",
+                "showAlternateHGridColor": "0",
+                "divlineAlpha": "100",
+                "divlineThickness": "1",
+                "divLineIsDashed": "1",
+                "divLineDashLen": "1",
+                "divLineGapLen": "1",
+                "lineThickness": "3",
+                "flatScrollBars": "1",
+                "scrollheight": "20",
+                "numVisiblePlot": "15",
+                "showHoverEffect":"1"
+            },
+            "categories": [
+                {
+                    "category": [
+
+            {
+                "label": "YouTube Editor"
+            }, {
+                "label": "street vehicle toys"
+            }, {
+                "label": "wooden educational toys"
+            }, {
+                "label": "CNN"
+            }, {
+                "label": "CNN Newsroom"
+            }, {
+                "label": "CNN TV"
+            }, {
+                "label": "News"
+            }, {
+                "label": "African Elephant Animal"
+            }, {
+                "label": "Djuma Game"
+            }, {
+                "label": "Giraffe Animal"
+            }, {
+                "label": "Kruger National Park Protected Site"
+            }, {
+                "label": "Leopard Animal"
+            }, {
+                "label": "Lion Animal"
+            }, {
+                "label": "Livestream Website"
+            }, {
+                "label": "Safari Industry"
+            }, {
+                "label": "Wildlife Film Subject"
+            }, {
+                "label": "African Elephant Animal"
+            }, {
+                "label": "Djuma Game Reserve Location"
+            }, {
+                "label": "Giraffe Animal"
+            }, {
+                "label": "Safari Industry"
+            }, {
+                "label": "Lion"
+            }, {
+                "label": "Livestream"
+            }, {
+                "label": "Safari Industry"
+            }, {
+                "label": "Wildlife Film Subject"
+            }
+            
+                    ]
+                }
+            ],
+            "dataset": [
+                {
+                    "seriesname": "Negative Videos",
+                    "color": "008ee4",
+                    "data": [
+                        { "value": "3" },
+                        { "value": "0" },
+
+                        { "value": "2" },
+                        { "value": "0" },
+
+                        { "value": "1" },
+                        { "value": "0" },
+
+
+                        { "value": "4" },
+                        { "value": "0" },
+
+                        { "value": "5" },
+                        { "value": "1" },
+
+                        
+                        
+                        
+                        
+                        { "value": "0" },
+                        { "value": "0" },
+
+                        { "value": "2" },
+                        { "value": "3" },
+                        { "value": "4" },
+                        { "value": "5" },
+                        { "value": "1" },
+                        { "value": "3" },
+
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" },
+         
+                       
+                        { "value": "1" },
+                        { "value": "2" },
+                        { "value": "4" }
+                    ]
+                },
+                {
+                    "seriesname": "Positive Videos",
+                    "color": "f45b00",
+                    "data": [
+                        { "value": "0" },
+                        { "value": "8" },
+
+
+                        { "value": "0" },
+                        { "value": "9" },
+
+
+                        { "value": "0" },
+                        { "value": "8" },
+
+
+                        { "value": "0" },
+                        { "value": "7" },
+
+                        { "value": "0" },
+                        { "value": "0" },
+
+                       
+                        
+                        
+                       
+                        { "value": "6" },
+                        { "value": "8" },
+
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" },
+
+                        { "value": "7" },
+                        { "value": "9" },
+                        { "value": "8" },
+                        { "value": "7" },
+                        { "value": "6" },
+                        { "value": "8" },
+         
+                       
+                        { "value": "0" },
+                        { "value": "0" },
+                        { "value": "0" }
+                    ]
+                }
+            ]
+        }
+    }).render();
+});
+
+
+
+</script>
+</head>
+<body>
+  <div id="chart-container">FusionCharts XT will load here!</div>
+</body>
+</html>
