@@ -10,202 +10,54 @@
 // Showing sentiment score for each video (Positive, Neutral, Negative) - with different colors
 // Sliding bar chart functionality
 
-FusionCharts.ready(function(){
-    var salesChart = new FusionCharts({
-        type: 'scrollstackedcolumn2d',
-        dataFormat: 'json',
+FusionCharts.ready(function () {
+    var revenueChart = new FusionCharts({
+        type: 'doughnut3d',
         renderAt: 'chart-container',
-        width: '1100',
-        height: '700',
+        width: '900',
+        height: '600',
+        dataFormat: 'json',
         dataSource: {
             "chart": {
-                "caption": "Sentiment Analysis Visualization based on Different Labels - Bar Chart",
-                "subCaption": "(1-10 scale:  1-5: Negative,   6-10: Positive) \n\n* Notice: click Negative/Positive in the buttom to viz separately *",
+                "caption": "Sentiment Analysis Visualization - Pie Chart",
+                "subCaption": "Total of All Selected Videos\n\n* Notice: click 'Negative/Neutral/Positive' in the buttom to see special effect *",
+                "numberPrefix": "$",
+                "paletteColors": "#0075c2,   #f2c500,   #f45b00",
 
-                "captionFontSize": "18",
-                "subcaptionFontSize": "18",
+                "bgColor": "#ffffff",
+                "showBorder": "0",
+                "use3DLighting": "1",
+                "showShadow": "1",
+                "enableSmartLabels": "0",
+                "startingAngle": "310",
+                "showLabels": "1",
+                "showPercentValues": "1",
+                "showLegend": "1",
+                "legendShadow": "1",
+                "legendBorderAlpha": "1",                                
+                "decimals": "0",
+                "captionFontSize": "14",
+                "subcaptionFontSize": "14",
                 "subcaptionFontBold": "0",
-                "xaxisname": "Video Labels",
-                "yaxisname": "Sentiment Value",
-                "showvalues": "0",
-                "numberprefix": "",
-                "legendBgAlpha": "0",
-                "legendBorderAlpha": "0",
-                "legendShadow": "0",
-                "showborder": "0",
-                "bgcolor": "#ffffff",
-                "showalternatehgridcolor": "0",
-                "showplotborder": "0",
-                "showcanvasborder": "",
-                "legendshadow": "0",
-                "plotgradientcolor": "",
-                "showCanvasBorder": "0",
-                "showAxisLines": "1",
-                "showAlternateHGridColor": "0",
-                "divlineAlpha": "100",
-                "divlineThickness": "1",
-                "divLineIsDashed": "1",
-                "divLineDashLen": "1",
-                "divLineGapLen": "1",
-                "lineThickness": "3",
-                "flatScrollBars": "1",
-                "scrollheight": "20",
-                "numVisiblePlot": "15",
-                "showHoverEffect":"1"
+                "toolTipColor": "#ffffff",
+                "toolTipBorderThickness": "0",
+                "toolTipBgColor": "#000000",
+                "toolTipBgAlpha": "80",
+                "toolTipBorderRadius": "2",
+                "toolTipPadding": "5",
             },
-            "categories": [
+            "data": [
                 {
-                    "category": [
-
-            {
-                "label": "YouTube Editor"
-            }, {
-                "label": "street vehicle toys"
-            }, {
-                "label": "wooden educational toys"
-            }, {
-                "label": "CNN"
-            }, {
-                "label": "CNN Newsroom"
-            }, {
-                "label": "CNN TV"
-            }, {
-                "label": "News"
-            }, {
-                "label": "African Elephant Animal"
-            }, {
-                "label": "Djuma Game"
-            }, {
-                "label": "Giraffe Animal"
-            }, {
-                "label": "Kruger National Park Protected Site"
-            }, {
-                "label": "Leopard Animal"
-            }, {
-                "label": "Lion Animal"
-            }, {
-                "label": "Livestream Website"
-            }, {
-                "label": "Safari Industry"
-            }, {
-                "label": "Wildlife Film Subject"
-            }, {
-                "label": "African Elephant Animal"
-            }, {
-                "label": "Djuma Game Reserve Location"
-            }, {
-                "label": "Giraffe Animal"
-            }, {
-                "label": "Safari Industry"
-            }, {
-                "label": "Lion"
-            }, {
-                "label": "Livestream"
-            }, {
-                "label": "Safari Industry"
-            }, {
-                "label": "Wildlife Film Subject"
-            }
-            
-                    ]
-                }
-            ],
-            "dataset": [
+                    "label": "Negative Videos",
+                    "value": "28504"
+                }, 
                 {
-                    "seriesname": "Negative Videos",
-                    "color": "008ee4",
-                    "data": [
-                        { "value": "3" },
-                        { "value": "0" },
-
-                        { "value": "2" },
-                        { "value": "0" },
-
-                        { "value": "1" },
-                        { "value": "0" },
-
-
-                        { "value": "4" },
-                        { "value": "0" },
-
-                        { "value": "5" },
-                        { "value": "1" },
-
-                        
-                        
-                        
-                        
-                        { "value": "0" },
-                        { "value": "0" },
-
-                        { "value": "2" },
-                        { "value": "3" },
-                        { "value": "4" },
-                        { "value": "5" },
-                        { "value": "1" },
-                        { "value": "3" },
-
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" },
-         
-                       
-                        { "value": "1" },
-                        { "value": "2" },
-                        { "value": "4" }
-                    ]
-                },
+                    "label": "Neutral Videos",
+                    "value": "6507"
+                }, 
                 {
-                    "seriesname": "Positive Videos",
-                    "color": "f45b00",
-                    "data": [
-                        { "value": "0" },
-                        { "value": "8" },
-
-
-                        { "value": "0" },
-                        { "value": "9" },
-
-
-                        { "value": "0" },
-                        { "value": "8" },
-
-
-                        { "value": "0" },
-                        { "value": "7" },
-
-                        { "value": "0" },
-                        { "value": "0" },
-
-                       
-                        
-                        
-                       
-                        { "value": "6" },
-                        { "value": "8" },
-
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" },
-
-                        { "value": "7" },
-                        { "value": "9" },
-                        { "value": "8" },
-                        { "value": "7" },
-                        { "value": "6" },
-                        { "value": "8" },
-         
-                       
-                        { "value": "0" },
-                        { "value": "0" },
-                        { "value": "0" }
-                    ]
+                    "label": "Positive Videos",
+                    "value": "29910"
                 }
             ]
         }
@@ -213,7 +65,40 @@ FusionCharts.ready(function(){
 });
 
 
-
+// FusionCharts.ready(function () {
+//     var revenueChart = new FusionCharts({
+//         type: 'doughnut2d',
+//         renderAt: 'chart-container',
+//         width: '800',
+//         height: '800',
+//         dataFormat: 'json',
+//         dataSource: {
+//             "chart": {
+//                 "caption": "Sentiment Analysis Visualization",
+//                 "subCaption": "Total of all videos",
+//                 "numberPrefix": "",                
+//                 "startingAngle": "310",
+//                 "decimals": "0",                
+//                 "defaultCenterLabel": "Total revenue: $60K",
+//                 "centerLabel": "Revenue from $label: $value",                
+//                 "theme": "fint"                
+//             },
+//             "data": [{
+//                 "label": "Negative",
+//                 "value": "28504"
+//             }, {
+//                 "label": "",
+//                 "value": "4633"
+//             }, {
+//                 "label": "Outiler",
+//                 "value": "10"
+//             }, {
+//                 "label": "Positive",
+//                 "value": "24910"
+//             }]
+//         }
+//     }).render();
+// });
 </script>
 </head>
 <body>
