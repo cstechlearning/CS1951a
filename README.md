@@ -1,26 +1,20 @@
-## This is CS1951a Final Project Source Page [[Website]](https://pengyangwu.github.io/CS1951a/)  ![travis-image](https://img.shields.io/travis/feross/snazzy/master.svg)[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://pengyangwu.github.io/CS1951a/)
+## This is CS1951a Final Project Source Page [[Website]](https://pengyangwu.github.io/CS1951a/)
+![Travis Build Badge](https://img.shields.io/travis/joyent/node/v0.6.svg)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://pengyangwu.github.io/CS1951a/)
 ---------------------------------------------------------
 ##        Front end  <---
 ##    Files:  <code>html/css/js </code>
 ---------------------------------------------------------
 
 ---------------------------------------------------------
-##        Back-end source code Part 1 
+##        Back end
 
-### Data Grabbing
+## Back-end source code is here:
 
-Grabbing Raw Data using YouTube API
-```markdown
-
-#  source code is here: 
 ## https://github.com/PrestonLaw/CSCI1951AProject/tree/master
 
-```
-
-
-
 ---------------------------------------------------------
-##        Prepocessing (Extraction & Cleaning), Machine Learning & Sentiment Analysis Model
+##        Prepocessing (Extraction and Cleaning), Machine Learning and Sentiment Analysis Model
 
 ## Back-end source code is here:
 
@@ -78,4 +72,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
