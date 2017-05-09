@@ -7,14 +7,14 @@
 ---------------------------------------------------------
 
 ---------------------------------------------------------
-##        Back end
+##        Data Grabbing
 
 ## Back-end source code is here:
 
 ## https://github.com/PrestonLaw/CSCI1951AProject/tree/master
 
 ---------------------------------------------------------
-##        Prepocessing (Extraction and Cleaning), Machine Learning and Sentiment Analysis Model
+##        Prepocessing (Extraction & Cleaning), Machine Learning & Sentiment Analysis Model
 
 ## Back-end source code is here:
 
