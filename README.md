@@ -9,6 +9,16 @@
 ---------------------------------------------------------
 ##        Data Grabbing
 
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1 xxx 
+## Header 2 yyy
+
 ## Back-end source code is here:
 
 ## https://github.com/PrestonLaw/CSCI1951AProject/tree/master
