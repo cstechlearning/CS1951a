@@ -1,5 +1,4 @@
 ## This is CS1951a Final Project Source Page [[Website]](https://pengyangwu.github.io/CS1951a/)
-![Travis Build Badge](https://img.shields.io/travis/joyent/node/v0.6.svg)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://pengyangwu.github.io/CS1951a/)
 ---------------------------------------------------------
 ##        Front end  <---
