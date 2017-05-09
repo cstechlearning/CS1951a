@@ -31,6 +31,5 @@
 <br>
 <br>
 <br>
-Updated May 9, 2017
 
 
