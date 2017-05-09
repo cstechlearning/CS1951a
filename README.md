@@ -7,25 +7,19 @@
 ---------------------------------------------------------
 
 ---------------------------------------------------------
-##        Data Grabbing
+##        Back-end source code Part 1 
 
-### Markdown
+### Data Grabbing
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Grabbing Raw Data using YouTube API
 ```markdown
-Syntax highlighted code block
 
-# Header 1 xxx 
-## Header 2 yyy
+#  source code is here: 
+## https://github.com/PrestonLaw/CSCI1951AProject/tree/master
 
 ```
 
 
-
-## Back-end source code is here:
-
-## https://github.com/PrestonLaw/CSCI1951AProject/tree/master
 
 ---------------------------------------------------------
 ##        Prepocessing (Extraction & Cleaning), Machine Learning & Sentiment Analysis Model
