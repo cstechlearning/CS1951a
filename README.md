@@ -1,7 +1,7 @@
 ## This is CS1951a Final Project Source Page [[Website]](https://pengyangwu.github.io/CS1951a/)
 ---------------------------------------------------------
 ##        Front-end  <---
-##    Files:  <code>html/css/js </code>
+##    Files:  <code>html/css/js </code> <---
 ---------------------------------------------------------
 
 ---------------------------------------------------------
