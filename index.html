@@ -91,8 +91,8 @@
 </h3>      
         
 <ol>
-<li><code>Plan A</code>, see all our data visualizations by directly clicking buttons below, scroll down to see our <b>Blogs</b> on the same webpage.
-<li><code>Plan B</code>, safari/chrome browser works perfectly, if your browser is not supported (e.g Firefox/IE), you can visualize data as next following section: 
+<li><code>Simple Way</code>: Directly click each buttons below to see all data visualizations, scroll down to see our <b>Blogs</b> on the same webpage.
+<li><code>Backup Way</code>: Safari/Chrome browser works perfectly. If your browser is not supported (e.g Firefox/IE), please read the instruction in following section: 
 </ol>
 
         
@@ -166,26 +166,40 @@
         
 <!-- This is INSTRUCTION CONTENT -->
         
-<h5>
-<a id="how-to-run-this" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to run this:
-</h5>     
-<ol>
-<li>Download the zip file by clicking grey folder button at upper right corner ↗ </li> 
-<!-- <li><img src="images/download_icon.png"  width="30" height="20"><li> -->
-<li>Issue the command <code>cd</code> to your code path</li>
-<li>Issue the command <code>python -m SimpleHTTPServer</code> to start the server</li>
-<li>Open your browser <code>http://localhost:8000/index.html</code> to visualize data</li>
-</ol>
 
 
 <h5>
-<a id="known-issues" class="anchor" href="#known-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Known issues
+<a id="known-issues" class="anchor" href="#known-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to Quick Fix?
 </h5>
 
 <ol>
-<li>since d3.js uses ajax to load tsv files, the files contained in the src folder cannot be run in a browser directly using <code>file://index.html</code>. 
-  Please execute the above commands under the src directory to create a HTTP server. To display<em> Data Visualization(a)(b)(c) separately</em>~</li>
+<li> <code>Chrome</code>: Click the shield icon in the far right of the address bar, in the pop-up window, click 'Load anyway' or 'Load unsafe script'.
+<li> <code>Firefox</code>: Click the shield icon, in the pop-up window, change the option to Disable Protection on This Page.
+<li> <code>IE 9.0</code>: After a pop-up message shows up at the bottom of the page, click 'Show all content'. (For IE 8.0 or earlier, when it appear click 'No' to go on).
+<li> <code>Safari</code>: Safari does not any block mixed content like other browsers do (HTTPS over HTTP protocol), so we strongly recommend you use Safari browser, if you got an issue above.
 </ol>
+
+
+
+
+<h5>
+<a id="how-to-run-this" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>What if my browser is not supported anyway?
+</h5>  
+
+<ol>
+<li>Download the zip file by clicking grey folder button at upper right corner ↗ </li> 
+<!-- <li><img src="images/download_icon.png"  width="30" height="20"><li> -->
+<li>Open the <code>front_end</code> folder.</li>
+<li>Open <code>index.html</code> then to click each button to see visualization locally.</li>
+<!-- <li><img src="images/download_icon.png"  width="30" height="20"><li> -->
+<!-- <li>Issue the command <code>python -m SimpleHTTPServer</code> to start the server</li> -->
+<!-- <li>Click Open your browser <code>http://localhost:8000/index.html</code> to visualize data</li> -->
+</ol>
+
+
+<!-- <li>since d3.js uses ajax to load tsv files, the files contained in the src folder cannot be run in a browser directly using <code>file://index.html</code>. 
+  Please execute the above commands under the src directory to create a HTTP server. To display<em> Data Visualization(a)(b)(c) separately</em>~</li>
+</ol> -->
 
         
 <!-- This is BLOG POST CONTENT -->
