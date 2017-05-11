@@ -33,7 +33,7 @@ time, mark, audio, video {
 }
 
 li, p{
-	color: grey;
+	color: #bfbfbf;  /* make font color slightly brighter;  color: grey; */
 }
 
 canvas {
