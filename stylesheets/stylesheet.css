@@ -36,12 +36,8 @@ li, p{
 }
 
 canvas {
-	z-index: 0;
 	top: 780px;
 	left: 400px;
-	margin: 0;
-  padding: 0;
-  border: 0;
 	position: absolute;
 	height: 1200px;
 	width: 600px;
@@ -52,6 +48,9 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+div.back{
+	border-color: black;
+}
 
 li:hover
 {
@@ -486,7 +485,8 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: ##5f8bc4;
+  #background: ##5f8bc4;
+  background: transparent;
 }
 
 
