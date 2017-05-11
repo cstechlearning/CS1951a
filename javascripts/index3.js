@@ -76,7 +76,7 @@ function init(){
   scene = new THREE.Scene();
   
   // create the camera
-  HEIGHT = window.innerHeight;
+  HEIGHT = window.innerHeight-100;
   WIDTH = window.innerWidth;
   aspectRatio = WIDTH / HEIGHT;
   fieldOfView = 60;
@@ -126,7 +126,7 @@ function init(){
 }
 
 function onWindowResize() {
-  HEIGHT = window.innerHeight;
+  HEIGHT = window.innerHeight-100;
   WIDTH = window.innerWidth;
   windowHalfX = WIDTH / 2;
   windowHalfY = HEIGHT / 2;

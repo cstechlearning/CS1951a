@@ -36,6 +36,7 @@ li, p{
 }
 
 canvas {
+	z-index:0;
 	top: 780px;
 	left: 400px;
 	position: absolute;
@@ -261,7 +262,8 @@ p img {
 pre, code {
   width: 100%;
   color: #222;
-  background-color: #fff;
+  #background-color: #fff;
+  background-color: black;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
