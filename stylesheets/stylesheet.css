@@ -1,6 +1,7 @@
 /*******************************************************************************
 Slate Theme for GitHub Pages
-by Jason Costello, @jsncostello
+Original by Jason Costello, @jsncostello
+Updated  by Aaron Wu, Abhishek Dutta
 *******************************************************************************/
 
 @import url(pygment_trac.css);
@@ -32,7 +33,7 @@ time, mark, audio, video {
 }
 
 li, p{
-	color: grey;
+	color: #bfbfbf;  /* make font color slightly brighter;  color: grey; */
 }
 
 canvas {
@@ -55,7 +56,7 @@ div.back{
 
 li:hover
 {
-    background-color: #ffffb3;
+    background-color: #ffffb3;  /* #ffffb3;  this yellow is too bright*/
 }
 
 /* ol, ul:hover
@@ -63,12 +64,10 @@ li:hover
     background-color: #ccebff;
 }
 
-
 h1, h2, h3, h4, h5, h6:hover
 {
     background-color: #ffe6ff;
 } */
-
 
 
 ol, ul {
@@ -146,7 +145,7 @@ html, body {
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #637d96; 
+  background:    #004466; 
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -261,9 +260,14 @@ p img {
 
 pre, code {
   width: 100%;
+<<<<<<< HEAD
   color: #222;
   #background-color: #fff;
   background-color: black;
+=======
+  color: white;
+  background-color: #0088cc;
+>>>>>>> origin/gh-pages
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
@@ -409,11 +413,11 @@ Full-Width Styles
   background: linear-gradient(top, #373737, ##5f8bc4);*/
 
   background: #0099ff;
-  background: -moz-linear-gradient(top, #ff6600, #0099ff);
-  background: -webkit-linear-gradient(top, #ff6600, #0099ff);
-  background: -ms-linear-gradient(top, #ff6600, #0099ff);
-  background: -o-linear-gradient(top, #ff6600, #0099ff);
-  background: linear-gradient(top, #ff6600, #0099ff);
+  background: -moz-linear-gradient(top, #000000, #0099ff);
+  background: -webkit-linear-gradient(top, #000000, #0099ff);
+  background: -ms-linear-gradient(top, #000000, #0099ff);
+  background: -o-linear-gradient(top, #000000, #0099ff);
+  background: linear-gradient(top, #000000, #0099ff);
 }
 
 #header_wrap .inner {
@@ -476,7 +480,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  #background: #f2f2f2;
+  /*background: #f2f2f2;*/
   background: black;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
@@ -487,7 +491,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  #background: ##5f8bc4;
+  /*#background: yellow;*/
   background: transparent;
 }
 
