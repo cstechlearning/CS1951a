@@ -18,10 +18,10 @@
 } */
 
 .back {
-    width: 33%;
-    height: 200px;
+    width: 50%;
+    height: 150px;
     float: left;
-    background-color: #eeeeee;
+    background-color: #004466;
     border: 10px;
     border-color: #ffffff;
     border-style: solid;
