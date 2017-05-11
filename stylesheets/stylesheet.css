@@ -1,6 +1,7 @@
 /*******************************************************************************
 Slate Theme for GitHub Pages
-by Jason Costello, @jsncostello
+Original by Jason Costello, @jsncostello
+Updated  by Aaron Wu, Abhishek Dutta
 *******************************************************************************/
 
 @import url(pygment_trac.css);
@@ -62,12 +63,10 @@ li:hover
     background-color: #ccebff;
 }
 
-
 h1, h2, h3, h4, h5, h6:hover
 {
     background-color: #ffe6ff;
 } */
-
 
 
 ol, ul {
@@ -407,11 +406,11 @@ Full-Width Styles
   background: linear-gradient(top, #373737, ##5f8bc4);*/
 
   background: #0099ff;
-  background: -moz-linear-gradient(top, #ff6600, #0099ff);
-  background: -webkit-linear-gradient(top, #ff6600, #0099ff);
-  background: -ms-linear-gradient(top, #ff6600, #0099ff);
-  background: -o-linear-gradient(top, #ff6600, #0099ff);
-  background: linear-gradient(top, #ff6600, #0099ff);
+  background: -moz-linear-gradient(top, #000000, #0099ff);
+  background: -webkit-linear-gradient(top, #000000, #0099ff);
+  background: -ms-linear-gradient(top, #000000, #0099ff);
+  background: -o-linear-gradient(top, #000000, #0099ff);
+  background: linear-gradient(top, #000000, #0099ff);
 }
 
 #header_wrap .inner {
