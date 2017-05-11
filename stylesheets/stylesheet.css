@@ -10,15 +10,15 @@ MeyerWeb Reset
 *******************************************************************************/
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, blockquote, pre, 
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, ul,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
+article, aside, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
@@ -26,9 +26,26 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
+  z-index:0;
+  #vertical-align: baseline;
+  background: transparent;
 }
 
+li, p{
+	color: grey;
+}
+
+canvas {
+	z-index: 0;
+	top: 780px;
+	left: 400px;
+	margin: 0;
+  padding: 0;
+  border: 0;
+	position: absolute;
+	height: 1200px;
+	width: 600px;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -458,7 +475,8 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  #background: #f2f2f2;
+  background: black;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
