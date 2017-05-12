@@ -36,7 +36,21 @@ li, p{
 	color: #bfbfbf;  /* make font color slightly brighter;  color: grey; */
 }
 
+canvas style {
+	height: 1920px;
+	width: 600px;
+}
+
 canvas {
+	z-index:0;
+	top: 300px;
+	left: 0px;
+	position: relative;
+	height: 600px; /* getting over written element.style*/
+	width: 1920px; /* getting over written by element.style*/
+}
+
+#nokey {
 	z-index:0;
 	top: 880px;
 	left: 400px;
@@ -44,6 +58,7 @@ canvas {
 	height: 1200px;
 	width: 600px;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
