@@ -57,7 +57,7 @@ var colors = ['#dff69e',
 var flyingParticles = []; 
 		waitingParticles = [];
 // maximum z position for a particle
-		maxParticlesZ = 200; 
+		maxParticlesZ = 0; 
 
 // SPEED
 var speed = {x:0, y:0};
@@ -76,7 +76,7 @@ function init(){
   scene = new THREE.Scene();
   
   // create the camera
-  HEIGHT = window.innerHeight-100;
+  HEIGHT = window.innerHeight;
   WIDTH = window.innerWidth;
   aspectRatio = WIDTH / HEIGHT;
   fieldOfView = 60;
@@ -87,7 +87,7 @@ function init(){
     aspectRatio,
     nearPlane,
     farPlane);
-  camera.position.z = 2000;   // default 1000,  the size of everything
+  camera.position.z = 1500;   // default 1000,  the size of everything
   
   
   //create the renderer 
@@ -426,9 +426,9 @@ function createParticle(){
     h = 10 + Math.random()*30;
     d = 10 + Math.random()*30;
 
-    w/=10
-    h/=10
-    d/=10
+    // w/=10
+    // h/=10
+    // d/=10
     geometryCore = new THREE.BoxGeometry(w,h,d);
   }
   // TETRAHEDRON
@@ -442,9 +442,9 @@ function createParticle(){
     sh = 2 + Math.floor(Math.random()*2);
     sv = 2 + Math.floor(Math.random()*2);
 
-    ray/= 5
-    sh /= 5
-    sv /= 5
+    // ray/= 5
+    // sh /= 5
+    // sv /= 5
 
 
     geometryCore = new THREE.SphereGeometry(ray, sh, sv);
