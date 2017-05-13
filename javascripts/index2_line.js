@@ -28,7 +28,7 @@ var ball = {
     
 // Line
    link_line_width = 0.3,
-   dis_limit = 28260,
+   dis_limit = 2000  //28260,
    add_mouse_point = true,
    mouse_in = false,
    mouse_ball = {
@@ -42,8 +42,8 @@ var ball = {
 
 // Random speed
 function getRandomSpeed(pos){
-    var  min = -1,
-       max = 3;
+    var  min = -1, // speed
+       max = 1;    // speed 
     switch(pos){
         case 'top':
             return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
