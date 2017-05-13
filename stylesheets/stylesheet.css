@@ -27,7 +27,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font: inherit;
-  z-index:0;
+  z-index:99;
   #vertical-align: baseline;
   background: transparent;
 }
@@ -44,7 +44,7 @@ canvas {
 	height: 50%; /* getting over written element.style*/
 	width: 100%; /* getting over written by element.style*/
 }
-
+/*
 #nokey {
 	z-index:0;
 	top: 880px;
@@ -52,6 +52,15 @@ canvas {
 	position: absolute;
 	height: 1200px;
 	width: 500px;
+}
+*/
+#nokey {
+	z-index:-99;
+	top: 30%;
+	left: -60%;
+	position: absolute;
+	height: 70%;
+	width: 215%;
 }
 
 /* HTML5 display-role reset for older browsers */
